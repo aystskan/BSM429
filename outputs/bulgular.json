@@ -1,0 +1,285 @@
+{
+  "satir": 129311,
+  "sutun": 17,
+  "md5": "2e14c914cc5ce10d1d4ce42c039ee41c",
+  "boyut_mb": 33.3,
+  "pencere_disi": 0,
+  "gun_frekans": {
+    "Paz": 16704,
+    "Pzt": 20822,
+    "Sal": 20880,
+    "Çar": 20880,
+    "Per": 16675,
+    "Cum": 16704,
+    "Cmt": 16646
+  },
+  "beklenen_dilim": 4464,
+  "gelen_dilim": 4459,
+  "eksik_dilim": 5,
+  "eksik_dilim_listesi": [
+    "2024-07-18 17:50",
+    "2024-07-20 13:00",
+    "2024-07-20 13:10",
+    "2024-07-29 17:00",
+    "2024-07-29 17:10"
+  ],
+  "beklenen_satir": 129456,
+  "eksik_satir": 145,
+  "gecikme_min": 3,
+  "gecikme_medyan": 50,
+  "gecikme_maks": 107,
+  "benzersiz_zaman": 5140,
+  "utc_fark_dk": 300,
+  "yazim_sorunu": 11,
+  "sifir_n": 10214,
+  "sifir_oran": 7.9,
+  "kural_tam": true,
+  "otobus0_n": 394,
+  "min_bus_gecerli": 5,
+  "min_reads_gecerli": 30,
+  "izgara_orani": 87,
+  "r_bus_reads": 0.95,
+  "r_hiz_okuma": -0.54,
+  "r_hiz_bus": -0.63,
+  "r_hiz_okuma_03": -0.13,
+  "r_hiz_okuma_14": -0.5,
+  "r_hiz_okuma_14_bolge": -0.44,
+  "ceyrek_yontemi_ayni": true,
+  "bes_sayi": {
+    "speed (ham, 0 dahil)": {
+      "min": 0.0,
+      "Q1": 22.36,
+      "medyan": 25.23,
+      "Q3": 27.95,
+      "maks": 155.8
+    },
+    "speed (0 hariç)": {
+      "min": 0.68,
+      "Q1": 23.18,
+      "medyan": 25.91,
+      "Q3": 27.95,
+      "maks": 155.8
+    },
+    "bus_count": {
+      "min": 0.0,
+      "Q1": 14.0,
+      "medyan": 30.0,
+      "Q3": 48.0,
+      "maks": 230.0
+    },
+    "num_reads": {
+      "min": 0.0,
+      "Q1": 274.0,
+      "medyan": 576.0,
+      "Q3": 958.0,
+      "maks": 3717.0
+    }
+  },
+  "ozet": {
+    "speed (ham, 0 dahil)": {
+      "n": 129311,
+      "min": 0.0,
+      "Q1": 22.36,
+      "medyan": 25.23,
+      "Q3": 27.95,
+      "maks": 155.8,
+      "ortalama": 23.649,
+      "std (n−1)": 8.049,
+      "ÇAA": 5.59,
+      "alt sınır (Q1−1,5·ÇAA)": 13.975,
+      "üst sınır (Q3+1,5·ÇAA)": 36.335,
+      "alt aykırı": 10673,
+      "üst aykırı": 1472,
+      "çarpıklık": -1.65,
+      "ortalama/medyan": 0.937
+    },
+    "speed (0 hariç)": {
+      "n": 119097,
+      "min": 0.68,
+      "Q1": 23.18,
+      "medyan": 25.91,
+      "Q3": 27.95,
+      "maks": 155.8,
+      "ortalama": 25.677,
+      "std (n−1)": 4.273,
+      "ÇAA": 4.77,
+      "alt sınır (Q1−1,5·ÇAA)": 16.025,
+      "üst sınır (Q3+1,5·ÇAA)": 35.105,
+      "alt aykırı": 1171,
+      "üst aykırı": 2120,
+      "çarpıklık": 1.04,
+      "ortalama/medyan": 0.991
+    },
+    "bus_count": {
+      "n": 129311,
+      "min": 0.0,
+      "Q1": 14.0,
+      "medyan": 30.0,
+      "Q3": 48.0,
+      "maks": 230.0,
+      "ortalama": 33.652,
+      "std (n−1)": 24.915,
+      "ÇAA": 34.0,
+      "alt sınır (Q1−1,5·ÇAA)": -37.0,
+      "üst sınır (Q3+1,5·ÇAA)": 99.0,
+      "alt aykırı": 0,
+      "üst aykırı": 2053,
+      "çarpıklık": 1.243,
+      "ortalama/medyan": 1.122
+    },
+    "num_reads": {
+      "n": 129311,
+      "min": 0.0,
+      "Q1": 274.0,
+      "medyan": 576.0,
+      "Q3": 958.0,
+      "maks": 3717.0,
+      "ortalama": 658.736,
+      "std (n−1)": 477.174,
+      "ÇAA": 684.0,
+      "alt sınır (Q1−1,5·ÇAA)": -752.0,
+      "üst sınır (Q3+1,5·ÇAA)": 1984.0,
+      "alt aykırı": 0,
+      "üst aykırı": 1405,
+      "çarpıklık": 0.908,
+      "ortalama/medyan": 1.144
+    }
+  },
+  "en_yavas_bolge": [
+    "Chicago Loop",
+    18.41
+  ],
+  "en_hizli_bolge": [
+    "Riverdale-Hegewisch",
+    33.61
+  ],
+  "sifir_saat_maks": [
+    3,
+    58.6
+  ],
+  "sifir_bolge_maks": [
+    "Riverdale-Hegewisch",
+    42.9
+  ],
+  "sifirsiz_bolge": [
+    "Auburn Gresham-Chatham",
+    "Humboldt-Garfield Prk E/W"
+  ],
+  "kirpilan_70": 15,
+  "std_gece_az": 5.53,
+  "std_gece_cok": 2.3,
+  "std_gunduz_az": 5.2,
+  "std_gunduz_cok": 3.15,
+  "dl_endeks": {
+    "07-03": 1.26,
+    "07-04": 0.43,
+    "07-05": 0.66,
+    "07-06": 1.01,
+    "07-07": 0.71,
+    "07-08": 0.77,
+    "07-09": 0.82,
+    "07-10": 0.93
+  },
+  "loop_endeks_0705": 1.15,
+  "ns_endeks_0705": 1.12,
+  "dl_bus_4_7": [
+    14.0,
+    21.5,
+    20.2,
+    10.7
+  ],
+  "dl_bus_hafta_ici_medyan": 32.4,
+  "ust45": 191,
+  "ust60": 24,
+  "ust60_maks_bus": 19,
+  "ust60_maks_reads": 471,
+  "ust60_gun": 6,
+  "alt8": 51,
+  "alt8_cok_otobus": 49,
+  "alt5": 23,
+  "kural_tab": [
+    {
+      "kural": "— taban oranlar (tüm geçerli satırlar)",
+      "işaretlenen": 119097,
+      "merkez 3 bölge payı": "%10",
+      "gece 00–05 payı": "%19",
+      "hafta sonu payı": "%25",
+      "kaç farklı gün": 31
+    },
+    {
+      "kural": "Şehir geneli 1,5·ÇAA — yavaş uç",
+      "işaretlenen": 1171,
+      "merkez 3 bölge payı": "%98",
+      "gece 00–05 payı": "%1",
+      "hafta sonu payı": "%15",
+      "kaç farklı gün": 29
+    },
+    {
+      "kural": "Şehir geneli 1,5·ÇAA — hızlı uç",
+      "işaretlenen": 2120,
+      "merkez 3 bölge payı": "%2",
+      "gece 00–05 payı": "%42",
+      "hafta sonu payı": "%28",
+      "kaç farklı gün": 31
+    },
+    {
+      "kural": "Şehir geneli |z| > 3",
+      "işaretlenen": 1019,
+      "merkez 3 bölge payı": "%25",
+      "gece 00–05 payı": "%36",
+      "hafta sonu payı": "%22",
+      "kaç farklı gün": 31
+    },
+    {
+      "kural": "Bağlamsal 1,5·ÇAA — bölge × saat",
+      "işaretlenen": 3864,
+      "merkez 3 bölge payı": "%11",
+      "gece 00–05 payı": "%21",
+      "hafta sonu payı": "%49",
+      "kaç farklı gün": 31
+    },
+    {
+      "kural": "Bağlamsal 1,5·ÇAA — bölge × saat × gün tipi",
+      "işaretlenen": 4562,
+      "merkez 3 bölge payı": "%11",
+      "gece 00–05 payı": "%18",
+      "hafta sonu payı": "%21",
+      "kaç farklı gün": 31
+    }
+  ],
+  "z_alt": 243,
+  "z_ust": 776,
+  "caa_alt": 1171,
+  "caa_ust": 2120,
+  "loop_yavas": 927,
+  "reads_999": 68,
+  "eleme": {
+    "speed = 0 (eksik)": {
+      "satir": 10214,
+      "ort_saat": 3.835,
+      "gece_00_05": 0.902,
+      "hafta_sonu": 0.315,
+      "merkez_3_bolge": 0.111,
+      "medyan_bus": 3.0,
+      "medyan_okuma": 45.0
+    },
+    "speed > 0 (dolu)": {
+      "satir": 119097,
+      "ort_saat": 12.153,
+      "gece_00_05": 0.194,
+      "hafta_sonu": 0.253,
+      "merkez_3_bolge": 0.103,
+      "medyan_bus": 32.0,
+      "medyan_okuma": 629.0
+    }
+  },
+  "en_uzun_seri": [
+    "Riverdale-Hegewisch",
+    65
+  ],
+  "bos_saat_hucre": 782,
+  "saat_hucre": 21576,
+  "bos_saat_oran": 3.6,
+  "takvim_olay": 15,
+  "sekil_sayisi": 9
+}

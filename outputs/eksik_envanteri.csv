@@ -1,0 +1,19 @@
+﻿sütun,NaN,sıfır sayısı,sıfır mümkün mü?,nöbetçi (−1/999),"metin eksik ('', N/A, ?)"
+time,0,—,—,0,0
+region_id,0,0,—,0,0
+speed,0,10214,Hayır — tahmin yok işareti,0,0
+region,0,—,—,0,0
+bus_count,0,394,Evet — o dilimde otobüs yok,0,0
+num_reads,0,394,Evet — o dilimde okuma yok,68,0
+hour,0,5394,Evet — gece yarısı,0,0
+day_of_week,0,0,—,0,0
+month,0,0,—,0,0
+description,0,—,—,0,0
+record_id,0,—,—,0,0
+west,0,0,—,0,0
+east,0,0,—,0,0
+south,0,0,—,0,0
+north,0,0,—,0,0
+nw_location,0,—,—,0,0
+se_location,0,—,—,0,0
+(satırın kendisi),0,—,5 dilim × 29 bölge = 145 satır hiç yok,0,0

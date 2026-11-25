@@ -1,0 +1,18 @@
+﻿sütun,ne ölçüyor,birim,ölçek türü,eksik nasıl işaretlenmiş,anlamlı özet,pandas tipi,benzersiz,değer aralığı,NaN,not
+time,Bölgenin tıkanıklık tahmininin üretildiği tarih ve saattir (Chicago yerel saati).,tarih-saat (CDT = UTC−5),aralık,Boş hücre yok. Örtük eksik: 5 zaman dilimi tümüyle yok (145 satır hiç gelmemiş),Fark ve sıralama; oran yok,str,5140,2024-07-01 00:01:13 … 2024-07-31 23:50:27,0,~10 dk'da bir; dilim başından 3–107 sn sonra yazılır → analizde 10 dk'ya yuvarlanmalı
+region_id,Kaydın ait olduğu trafik bölgesinin keyfî numarasıdır (1–29).,—,nominal,Yok,"Mod, frekans — ortalaması anlamsız",int64,29,1 … 29,0,"Sayı ama sıra/uzaklık yok: 12, 11'e 29'dan 'yakın' değildir"
+speed,Bölgedeki arter yolların o 10 dakikadaki tahmini tıkanıklık düzeyidir; mph cinsinden yazılır ama gerçek ortalama araç hızı değildir.,"mph (1 mph = 1,609 km/sa); çözünürlük ≈ 0,68 mph (1 ft/sn)",oran,"SIFIR KILIĞI: bus_count < 5 veya num_reads < 30 olduğunda 0 yazılır (10.214 satır, %7,9). NaN yok",Hepsi (0 hariç tutularak),float64,958,0.0 … 155.8,0,"Geçerli değerlerde 60 mph üstü 24 değer var (maks 155,8) — hepsi düşük okumalı"
+region,Trafik bölgesinin adıdır; her bölge benzer trafik desenli 2–3 topluluk alanını birleştirir.,—,nominal,Yok,"Mod, frekans",str,29,6–33 karakter,0,"Yazım/kısaltma: Linconl, Cragn, Prk, Avlon"
+bus_count,O 10 dakikada bölgedeki tahmini üretmek için kullanılan otobüs sayısıdır.,adet,oran,Yok. 0 gerçek sıfırdır (394 satır: o dilimde otobüs yok),Hepsi,int64,207,0 … 230,0,Güvenilirlik göstergesi; gece ve hafta sonu düşer
+num_reads,O 10 dakikada tahmin için alınan (kullanılan) GPS okumalarının sayısıdır.,adet,oran,Yok. 0 gerçek sıfırdır (bus_count = 0 ile aynı 394 satır),Hepsi,int64,2701,0 … 3717,0,"Güvenilirlik göstergesi; bus_count ile r ≈ 0,95; hızla r ≈ −0,54 (§3.8)"
+hour,Kaydın günün hangi saatine düştüğüdür; time'dan türetilmiştir.,saat (0–23),aralık (döngüsel),Yok,"Frekans, fark — düz ortalama yanıltıcı",int64,24,0 … 23,0,Artık sütun; 23 ile 0 komşudur ama sayıca uzaktır
+day_of_week,Kaydın haftanın hangi gününe düştüğüdür; time'dan türetilmiştir.,Pazar = 1 … Cumartesi = 7,aralık (döngüsel),Yok,Frekans — düz ortalama anlamsız,int64,7,1 … 7,0,⚠️ pandas dayofweek Pazartesi = 0 kullanır; Temmuz 2024'te Pzt/Sal/Çar 5'er kez
+month,Kaydın ayıdır; time'dan türetilmiştir.,ay (1–12),aralık (döngüsel),Yok,—,int64,1,7 … 7,0,Bu kesitte sabit (7) → bilgi taşımaz
+description,Bölgenin sınırlarını cadde adlarıyla tarif eden metindir.,—,nominal,Yok,—,str,29,29–47 karakter,0,"Yazım: Roosevel, Diversy, Halem, Steward/Stewart"
+record_id,Kaydın benzersiz kimliğidir: bölge numarası + UTC zaman ('BB-YYYYMMDDHHMM').,—,nominal (tanımlayıcı),Yok,—,str,129311,15–15 karakter,0,Benzersiz; zamanı UTC'dir (time + 5 sa). Modele girmez
+west,Bölgeyi çevreleyen dikdörtgenin batı kenarının yaklaşık boylamıdır.,derece (boylam),aralık,Yok,—,float64,16,-87.84621 … -87.584845,0,"Bölge başına sabit — bölgenin özelliği, ölçüm değil"
+east,Bölgeyi çevreleyen dikdörtgenin doğu kenarının yaklaşık boylamıdır.,derece (boylam),aralık,Yok,—,float64,20,-87.747456 … -87.524436,0,Bölge başına sabit
+south,Bölgeyi çevreleyen dikdörtgenin güney kenarının yaklaşık enlemidir.,derece (enlem),aralık,Yok,—,float64,12,41.644139 … 41.997946,0,Bölge başına sabit
+north,Bölgeyi çevreleyen dikdörtgenin kuzey kenarının yaklaşık enlemidir.,derece (enlem),aralık,Yok,—,float64,14,41.677477 … 42.026444,0,Bölge başına sabit
+nw_location,Dikdörtgenin kuzeybatı köşesidir — WKT 'POINT (boylam enlem)'.,derece,nominal (geometri),Yok,—,str,29,27–28 karakter,0,west + north'un tekrarı (artık)
+se_location,Dikdörtgenin güneydoğu köşesidir — WKT 'POINT (boylam enlem)'.,derece,nominal (geometri),Yok,—,str,29,26–28 karakter,0,east + south'un tekrarı (artık)

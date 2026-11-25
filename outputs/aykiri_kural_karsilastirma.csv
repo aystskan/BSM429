@@ -1,0 +1,7 @@
+﻿kural,işaretlenen,merkez 3 bölge payı,gece 00–05 payı,hafta sonu payı,kaç farklı gün
+— taban oranlar (tüm geçerli satırlar),119097,%10,%19,%25,31
+"Şehir geneli 1,5·ÇAA — yavaş uç",1171,%98,%1,%15,29
+"Şehir geneli 1,5·ÇAA — hızlı uç",2120,%2,%42,%28,31
+Şehir geneli |z| > 3,1019,%25,%36,%22,31
+"Bağlamsal 1,5·ÇAA — bölge × saat",3864,%11,%21,%49,31
+"Bağlamsal 1,5·ÇAA — bölge × saat × gün tipi",4562,%11,%18,%21,31
